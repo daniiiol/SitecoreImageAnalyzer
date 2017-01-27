@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet", "NuGet", "{5B4ECC62-9692-41D7-841F-52210A55EA2D}"
 	ProjectSection(SolutionItems) = preProject
-		NuGet\Namics.Opensource.SitecoreImageAnalyzer.1.0.0.nuspec = NuGet\Namics.Opensource.SitecoreImageAnalyzer.1.0.0.nuspec
+		NuGet\Namics.Opensource.SitecoreImageAnalyzer.1.0.1.nupkg = NuGet\Namics.Opensource.SitecoreImageAnalyzer.1.0.1.nupkg
 		NuGet\nuget.exe = NuGet\nuget.exe
 		NuGet\package.nuspec = NuGet\package.nuspec
 	EndProjectSection
