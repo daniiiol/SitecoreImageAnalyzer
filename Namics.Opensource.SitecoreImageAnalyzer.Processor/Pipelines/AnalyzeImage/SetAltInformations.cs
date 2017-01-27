@@ -21,7 +21,7 @@ namespace Namics.Opensource.SitecoreImageAnalyzer.Processor.Pipelines.AnalyzeIma
                     try
                     {
                         var mediaItem = new MediaItem(uploadedItem);
-                        if (string.IsNullOrEmpty(mediaItem.MediaPath) || !string.IsNullOrEmpty(mediaItem.Alt))
+                        if (string.IsNullOrEmpty(mediaItem.MediaPath) || !string.IsNullOrEmpty(mediaItem.Alt) || !mediaItem.MimeType.StartsWith("image", StringComparison.InvariantCultureIgnoreCase))
                         {
                             continue;
                         }
