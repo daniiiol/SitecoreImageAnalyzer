@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>Namics.Opensource.SitecoreImageAnalyzer</id>
@@ -15,7 +15,7 @@
         <tags>snippet sitecore backend image analyze cognitive services azure content cms</tags>
     </metadata>
     <files>
-        <file src="..\Namics.Opensource.SitecoreImageAnalyzer.Processor\Configs\Namics.Opensource.SitecoreImageAnalyzer.config" target="content\App_Config\Include\Namics.Opensource.SitecoreImageAnalyzer.config" />
-        <file src="..\Namics.Opensource.SitecoreImageAnalyzer.Processor\bin\Release\Namics.Opensource.SitecoreImageAnalyzer.Processor.dll" target="lib\net452\Namics.Opensource.SitecoreImageAnalyzer.Processor.dll" />
+        <file src="..\..\Namics.Opensource.SitecoreImageAnalyzer.Processor\Configs\Namics.Opensource.SitecoreImageAnalyzer.config" target="content\App_Config\Include\Namics.Opensource.SitecoreImageAnalyzer.config" />
+        <file src="..\..\Namics.Opensource.SitecoreImageAnalyzer.Processor\bin\Release\Namics.Opensource.SitecoreImageAnalyzer.Processor.dll" target="lib\net452\Namics.Opensource.SitecoreImageAnalyzer.Processor.dll" />
     </files>
 </package>
